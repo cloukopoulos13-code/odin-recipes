@@ -1,5 +1,5 @@
-* {
-    margin:0; padding:0;
+*, *::before, *::after {
+    box-sizing: border-box;
 } 
 
 body{
@@ -45,7 +45,6 @@ li{
 
 .alt-links{
     padding: 85px 0px 50px 0px;
-    margin-top: -1.2em;
 }
 
 a{
@@ -74,13 +73,11 @@ a#home-link:hover{
     color: #fff5ea;
 }
 
-
 .header{
     text-align: left;
     background-color: #e6c9a8;
     border: 2px solid #f2dfc9;
     height: 50px;
-    margin-bottom: -25px;
 }
 
 img{
@@ -88,6 +85,5 @@ img{
 }
 
 .recipe-img{
-    margin: -25px;
     background-color: #8e5f4f;
 }
