@@ -1,4 +1,6 @@
 *, *::before, *::after {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 } 
 
@@ -14,11 +16,15 @@ body{
     border: 2px solid #aec7bd;
     color: white;
     padding: 1em 1em 1.5em;
-    border-bottom: 0px;
+}
+
+p{
+    padding: 1em;
 }
 
 p.alt-text{
     color: #835343;
+    margin: 0.5em;
 }
 
 .small-title{
@@ -26,12 +32,26 @@ p.alt-text{
     padding: 1.5em;
 }
 
+h3.small-title{
+    font-size: 18px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-style:dashed;
+}
+
 ul, ol{
     background-color: #e6c9a8;
     border: 2px solid #f2dfc9;
-    border-top: 0px;
-    list-style: none;
     padding: 2em 2em;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    text-align: left;
 }
 
 .italic{
@@ -44,7 +64,7 @@ li{
 }
 
 .alt-links{
-    padding: 85px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 a{
@@ -86,4 +106,9 @@ img{
 
 .recipe-img{
     background-color: #8e5f4f;
+}
+
+li.recipe-steps{
+    display: list-item;
+    margin: 2em;
 }
